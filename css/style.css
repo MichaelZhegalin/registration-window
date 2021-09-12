@@ -1,0 +1,45 @@
+#root{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text{
+  text-align: center;
+  font-size: 50px;
+  margin: 5px;
+}
+.warning{
+  color: red;
+  margin: 5px;
+}
+.reg_win{
+  border: 1px solid black;
+}
+.button{
+  display: flex;
+  justify-content: center;
+  text-align: 30px;
+}
+.reg:hover{
+  background-color: green;
+}
+input{
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 5px;
+}
+.reg{
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 30px;
+  padding: 5px;
+  margin: 10px;
+}
+span{
+  font-size: 20px;
+  margin: 5px;
+}
+.log{
+  margin: 14px;
+}
