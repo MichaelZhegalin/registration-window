@@ -20,6 +20,4 @@ password.onchange = (e) =>{
 	}
 }
 
-button.onclick = (e) =>{
-	event.preventDefault();
-}
+form.onsubmit = (e) => e.preventDefault();
